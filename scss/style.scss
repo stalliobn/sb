@@ -1,0 +1,34 @@
+@import 'variables', 'mixins', 'normalize', 'grid';
+@import 'parts/header', 'parts/owl', 'parts/slider-box', 'parts/product',
+'parts/page-box', 'parts/modal';
+html {
+  &:before {
+    content: "#{inspect($breakpoints)}";
+    display: none;
+  }
+}
+.clearfix {
+  @each $pseudo in after before {
+    &:#{$pseudo} {
+      content: '';
+      display: table;
+    }
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+.wrapper {
+  margin: auto;
+  max-width: 1020px;
+}
+
+body {
+  font-family: 'Roboto', Arial;
+}
+.laer {
+  background: url(../images/main-bg.png) repeat-y center center;
+  background-size: 100%;
+}
+@include font-face(Roboto, Roboto-Regular);

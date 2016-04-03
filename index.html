@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="overlay"></div>
+  <div id="modal" class="modal_div">
+    <span class="modal_close"></span>
+    <span class="title">Заголовок 1</span>
+    <form>
+      <span>* Введите Ваше имя:</span>
+      <input type="text" name="name"/>
+      <span>* Телефон:</span>
+      <input type="text"  name="phone"/>
+      <span>* E-mail:</span>
+      <input type="email" name="email" />
+      <input type="hidden" name="mailtitle" />
+      <input type="hidden" name="adminemail" value="rgakotel@gmail.co"/>
+      <input type="submit" class="button" onclick="sendform(); return false;" />
+    </form>
+  </div>
+  <div class="laer">
+    <div class="container">
+      <header class="clearfix">
+        <div class="logo">
+          <a href="/">
+            <img src="images/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="phone">
+          <span class="number">8 (863) 303 20 90</span>
+          <span class="button open_modal" data-href="#modal" data-modal-title="Заказать обратный звонок" data-modal-email-title="Заказ обратного звонка">Заказать звонок</span>
+          <a class="adr" href="http://www.gazpribori.ru/content/magaziny.html" target="_blank">Адреса магизонов</a>
+        </div>
+      </header>
+      <div class="slider-box">
+        <div class="main-slider">
+          <div class="owl">
+            <div class="item">
+              <div class="slide-wrap clearfix">
+                <div class="image-wrap">
+                  <img src="data-image/image-1.png" alt="" />
+                </div>
+                <div class="text-wrap">
+                  <h2>Котел КЧГО 16-е</h2>
+                  <div class="slide-text">
+                    <p>Газовые напольные котлы SIBERIA с чугунным теплообменником обеспечивают бесперебойное водяное отопление даже в самых жестких условиях.</p>
+                    <h4>Основные преимущества</h4>
+                    <ul>
+                      <li>Возможность подключения устройств контроля и управления системы отопления через интернет</li>
+                      <li>Возможность подключения комнатного термостата для регулирования температуры в помещении</li>
+                    </ul>
+                    <span>Цена: 33 400 руб.</span>
+                  </div>
+                  <div class="link-wrap">
+                    <span data-href="#modal" data-modal-title="Заказать котел КЧГО 16-е" data-modal-email-title="Заказ на котел КЧГО 16-е" class="open_modal">Хочу такой же!</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-wrap clearfix">
+                <div class="image-wrap">
+                  <img src="data-image/image-1.png" alt="" />
+                </div>
+                <div class="text-wrap">
+                  <h2>Котел КЧГО 25-е</h2>
+                  <div class="slide-text">
+                    <p>Газовые напольные котлы SIBERIA с чугунным теплообменником обеспечивают бесперебойное водяное отопление даже в самых жестких условиях.</p>
+                    <h4>Основные преимущества</h4>
+                    <ul>
+                      <li>Возможность подключения устройств контроля и управления системы отопления через интернет</li>
+                      <li>Возможность подключения комнатного термостата для регулирования температуры в помещении</li>
+                    </ul>
+                    <span>Цена: 42 400 руб</span>
+                  </div>
+                  <div class="link-wrap">
+                    <span data-href="#modal" data-modal-title="Заказать котел КЧГО 25-е" data-modal-email-title="Заказ на котел КЧГО 25-е" class="open_modal">Хочу такой же!</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-wrap clearfix">
+                <div class="image-wrap">
+                  <img src="data-image/image-2.png" alt="" />
+                </div>
+                <div class="text-wrap">
+                  <h2>Котел КЧГО 40-е</h2>
+                  <div class="slide-text">
+                    <p>Газовые напольные котлы SIBERIA с чугунным теплообменником обеспечивают бесперебойное водяное отопление даже в самых жестких условиях.</p>
+                    <h4>Основные преимущества</h4>
+                    <ul>
+                      <li>Возможность подключения устройств контроля и управления системы отопления через интернет</li>
+                      <li>Возможность подключения комнатного термостата для регулирования температуры в помещении</li>
+                    </ul>
+                    <span>Цена: 55 900 руб</span>
+                  </div>
+                  <div class="link-wrap">
+                    <span data-href="#modal" data-modal-title="Заказать котел КЧГО 40-е" data-modal-email-title="Заказ на котел КЧГО 40-е" class="open_modal">Хочу такой же!</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-wrap clearfix">
+                <div class="image-wrap">
+                  <img src="data-image/image-2.png" alt="" />
+                </div>
+                <div class="text-wrap">
+                  <h2>Котел КЧГО 50-е</h2>
+                  <div class="slide-text">
+                    <p>Газовые напольные котлы SIBERIA с чугунным теплообменником обеспечивают бесперебойное водяное отопление даже в самых жестких условиях.</p>
+                    <h4>Основные преимущества</h4>
+                    <ul>
+                      <li>Возможность подключения устройств контроля и управления системы отопления через интернет</li>
+                      <li>Возможность подключения комнатного термостата для регулирования температуры в помещении</li>
+                    </ul>
+                    <span>Цена: 55 900 руб</span>
+                  </div>
+                  <div class="link-wrap">
+                    <span data-href="#modal" data-modal-title="Заказать котел КЧГО 50-е" data-modal-email-title="Заказ на котел КЧГО 40-е" class="open_modal">Хочу такой же!</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="next"></span>
+          <span class="prev"></span>
+        </div>
+        <div class="block-title">
+          <p>Оставить заявку на покупку котла КЧГО и получить <b>скидку 10%</b> на монтажные работы</p>
+        </div>
+        <div class="table-box" id="table1">
+          <h3 role="heading">Технические характеристики</h3>
+          <div class="table-wrapper">
+            <table class="specifications">
+              <thead>
+                <tr>
+                  <th>Модель</th>
+                  <th>КЧГО 16-е</th>
+                  <th>КЧГО 25-е</th>
+                  <th>КЧГО 40-е</th>
+                  <th>КЧГО 50-е</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Номинальная тепловая мощность КВт</td>
+                  <td>16</td>
+                  <td>26</td>
+                  <td>40</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>Напряжение/Частота сети, В/Гц</td>
+                  <td>220/50</td>
+                  <td>220/50</td>
+                  <td>220/50</td>
+                  <td>220/50</td>
+                </tr>
+                <tr>
+                  <td>Потребляемая мощность, Вт</td>
+                  <td>4,4</td>
+                  <td>4,4</td>
+                  <td>4,4</td>
+                  <td>4,4</td>
+                </tr>
+                <tr>
+                  <td>Ориентировочная площадь отопления, м²</td>
+                  <td>100-200</td>
+                  <td>120-270</td>
+                  <td>200-400</td>
+                  <td>300-600</td>
+                </tr>
+                <tr>
+                  <td>Присоединительная резьба штуцеров: для подвода и отвода воды к отопительной части, дюйм,</td>
+                  <td>G ½</td>
+                  <td>G ½</td>
+                  <td>G ½</td>
+                  <td>G ½</td>
+                </tr>
+                <tr>
+                  <td>Присоединительная резьба штуцеров: для подачи газа, дюйм</td>
+                  <td>G ¾</td>
+                  <td>G ¾</td>
+                  <td>G ¾</td>
+                  <td>G ¾</td>
+                </tr>
+                <tr>
+                  <td>Внутренний диаметр газоотводящего патрубка, дм, не менее</td>
+                  <td>1,25</td>
+                  <td>1,41</td>
+                  <td>1,67</td>
+                  <td>1,67</td>
+                </tr>
+                <tr>
+                  <td>КПД по отходящим газам, % не менее <br />- по полезной мощности <br />- по отходящим газам</td>
+                  <td>87,4/90</td>
+                  <td>87,4/90</td>
+                  <td>88/90</td>
+                  <td>88/90</td>
+                </tr>
+                <tr>
+                  <td>Габариты: высота, ширина, глубина</td>
+                  <td>860/410/610</td>
+                  <td>860/495/610</td>
+                  <td>860/665/610</td>
+                  <td>860/750/610</td>
+                </tr>
+                <tr>
+                  <td>Масса аппарата, кг</td>
+                  <td>95</td>
+                  <td>115</td>
+                  <td>170</td>
+                  <td>200</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><span data-href="#modal" data-modal-title="Заказать котел КЧГО 16-е" data-modal-email-title="Заказ на котел КЧГО 16-е" class="button open_modal">Заказать</span></td>
+                  <td><span data-href="#modal" data-modal-title="Заказать котел КЧГО 25-е" data-modal-email-title="Заказ на котел КЧГО 25-е" class="button open_modal">Заказать</span></td>
+                  <td><span data-href="#modal" data-modal-title="Заказать котел КЧГО 40-е" data-modal-email-title="Заказ на котел КЧГО 40-е" class="button open_modal">Заказать</span></td>
+                  <td><span data-href="#modal" data-modal-title="Заказать котел КЧГО 50-е" data-modal-email-title="Заказ на котел КЧГО 50-е" class="button open_modal">Заказать</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="title-product">
+          <h1>Энергозависимые котлы КЧГО</h1>
+          <span>(с чугунным теплообменником)</span>
+        </div>
+        <div class="product-wrap clearfix">
+          <div class="row clearfix">
+            <div class="col-md-3">
+              <div class="item-product">
+                <div class="img-prod">
+                  <img src="data-image/image-3.png" alt="" />
+                </div>
+                <div class="description-prod">
+                  <h4>кчго 16</h4>
+                  <p>Оснащен чугунным теплообменником VIADRUS (Чехия), который состоит из 3 секций, АВТОМАТИКА 820 NOVA mv, количество трубчатых горелок 2 шт (производство Италия, фирма PoliDORO, нержавеющая сталь), диаметр газоотводящего патрубка 125 мм. Теплообменник VIADRUS (Чехия), высококачественный серый чугун толщиной 4 мм; максимальное рабочее давление 4 бар; антикоррозийная обработка ингибирующим составом; срок эксплуатации 25 лет.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="item-product">
+                <div class="img-prod">
+                  <img src="data-image/image-3.png" alt="" />
+                </div>
+                <div class="description-prod">
+                  <h4>кчго 25</h4>
+                  <p>Оснащен чугунным теплообменником VIADRUS (Чехия), который состоит из 3 секций, АВТОМАТИКА 820 NOVA mv, количество трубчатых горелок 2 шт (производство Италия, фирма PoliDORO, нержавеющая сталь), диаметр газоотводящего патрубка 125 мм. Теплообменник VIADRUS (Чехия), высококачественный серый чугун толщиной 4 мм; максимальное рабочее давление 4 бар; антикоррозийная обработка ингибирующим составом; срок эксплуатации 25 лет.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="item-product">
+                <div class="img-prod">
+                  <img src="data-image/image-4.png" alt="" />
+                </div>
+                <div class="description-prod">
+                  <h4>кчго 40</h4>
+                  <p>Оснащен чугунным теплообменником VIADRUS (Чехия), который состоит из 3 секций, АВТОМАТИКА 820 NOVA mv, количество трубчатых горелок 2 шт (производство Италия, фирма PoliDORO, нержавеющая сталь), диаметр газоотводящего патрубка 125 мм. Теплообменник VIADRUS (Чехия), высококачественный серый чугун толщиной 4 мм; максимальное рабочее давление 4 бар; антикоррозийная обработка ингибирующим составом; срок эксплуатации 25 лет.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="item-product">
+                <div class="img-prod">
+                  <img src="data-image/image-4.png" alt="" />
+                </div>
+                <div class="description-prod">
+                  <h4>кчго 50</h4>
+                  <p>Оснащен чугунным теплообменником VIADRUS (Чехия), который состоит из 3 секций, АВТОМАТИКА 820 NOVA mv, количество трубчатых горелок 2 шт (производство Италия, фирма PoliDORO, нержавеющая сталь), диаметр газоотводящего патрубка 125 мм. Теплообменник VIADRUS (Чехия), высококачественный серый чугун толщиной 4 мм; максимальное рабочее давление 4 бар; антикоррозийная обработка ингибирующим составом; срок эксплуатации 25 лет.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-box">
+          <span class="button open_modal" data-href="#modal" data-modal-title="Заказать прайс" data-modal-email-title="Заказ прайслиста">Заказать полный прайс лист</span>
+        </div>
+      </div>
+      <div class="slider-box">
+        <div class="table-box">
+          <h3>Технические характеристики</h3>
+          <div class="table-wrapper">
+            <table class="specifications">
+              <thead>
+                <tr>
+                  <th>Модель</th>
+                  <th>КЧГО 16-е</th>
+                  <th>КЧГО 25-е</th>
+                  <th>КЧГО 40-е</th>
+                  <th>КЧГО 50-е</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Номинальная тепловая мощность КВт</td>
+                  <td>16</td>
+                  <td>26</td>
+                  <td>40</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>Напряжение/Частота сети, В/Гц</td>
+                  <td>220/50</td>
+                  <td>220/50</td>
+                  <td>220/50</td>
+                  <td>220/50</td>
+                </tr>
+                <tr>
+                  <td>Потребляемая мощность, Вт</td>
+                  <td>4,4</td>
+                  <td>4,4</td>
+                  <td>4,4</td>
+                  <td>4,4</td>
+                </tr>
+                <tr>
+                  <td>Ориентировочная площадь отопления, м²</td>
+                  <td>100-200</td>
+                  <td>120-270</td>
+                  <td>200-400</td>
+                  <td>300-600</td>
+                </tr>
+                <tr>
+                  <td>Присоединительная резьба штуцеров: для подвода и отвода воды к отопительной части, дюйм,</td>
+                  <td>G ½</td>
+                  <td>G ½</td>
+                  <td>G ½</td>
+                  <td>G ½</td>
+                </tr>
+                <tr>
+                  <td>Присоединительная резьба штуцеров: для подачи газа, дюйм</td>
+                  <td>G ¾</td>
+                  <td>G ¾</td>
+                  <td>G ¾</td>
+                  <td>G ¾</td>
+                </tr>
+                <tr>
+                  <td>Внутренний диаметр газоотводящего патрубка, дм, не менее</td>
+                  <td>1,25</td>
+                  <td>1,41</td>
+                  <td>1,67</td>
+                  <td>1,67</td>
+                </tr>
+                <tr>
+                  <td>КПД по отходящим газам, % не менее <br />- по полезной мощности <br />- по отходящим газам</td>
+                  <td>87,4/90</td>
+                  <td>87,4/90</td>
+                  <td>88/90</td>
+                  <td>88/90</td>
+                </tr>
+                <tr>
+                  <td>Габариты: высота, ширина, глубина</td>
+                  <td>860/410/610</td>
+                  <td>860/495/610</td>
+                  <td>860/665/610</td>
+                  <td>860/750/610</td>
+                </tr>
+                <tr>
+                  <td>Масса аппарата, кг</td>
+                  <td>95</td>
+                  <td>115</td>
+                  <td>170</td>
+                  <td>200</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><span data-href="#modal" data-modal-title="Заказать котел КЧГО 16-е" data-modal-email-title="Заказ на котел КЧГО 16-е" class="button open_modal">Заказать</span></td>
+                  <td><span data-href="#modal" data-modal-title="Заказать котел КЧГО 25-е" data-modal-email-title="Заказ на котел КЧГО 25-е" class="button open_modal">Заказать</span></td>
+                  <td><span data-href="#modal" data-modal-title="Заказать котел КЧГО 40-е" data-modal-email-title="Заказ на котел КЧГО 40-е" class="button open_modal">Заказать</span></td>
+                  <td><span data-href="#modal" data-modal-title="Заказать котел КЧГО 50-е" data-modal-email-title="Заказ на котел КЧГО 50-е" class="button open_modal">Заказать</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <section class="page-box">
+        <h2 class="title">Схема работы</h2>
+        <div class="block-scheme-wrapper">
+          <div class="block-scheme">
+            <div class="item-scheme">
+              <span>Оставить заявку</span>
+            </div>
+            <span class="arrow"></span>
+            <div class="item-scheme">
+              <span>Наш менеджер  свяжется с вами</span>
+            </div>
+            <span class="arrow"></span>
+            <div class="item-scheme">
+              <span>Выставление счета</span>
+            </div>
+            <span class="arrow"></span>
+            <div class="item-scheme">
+              <span>После оплаты<br /> Вы забираете товар<br /> удобным для Вас способом</span>
+            </div>
+            <span class="arrow-lost"></span>
+          </div>
+          <div class="last-item-scheme">
+            <span>Доставка</span>
+            <span>самовывоз</span>
+          </div>
+        </div>
+      </section>
+      <section class="page-box white-bg">
+        <h2 class="title">Преимущества нашей компании</h2>
+        <div class="plus-wrap">
+          <div class="plus-item">
+            <div class="plus-img">
+              <img src="images/image-2.png" alt="" />
+            </div>
+            <p>Эклюзивный представитель завода - изготовителя</p>
+          </div>
+          <div class="plus-item">
+            <div class="plus-img">
+              <img src="images/image-3.png" alt="" />
+            </div>
+            <p>Цена от <br /> производителя</p>
+          </div>
+          <div class="plus-item">
+            <div class="plus-img">
+              <img src="images/image-4.png" alt="" />
+            </div>
+            <p>Бесплатная доставка по Ростову-на-Дону</p>
+          </div>
+          <div class="plus-item">
+            <div class="plus-img">
+              <img src="images/image-5.png" alt="" />
+            </div>
+            <p>Гарантия <br />3 года</p>
+          </div>
+          <div class="plus-item">
+            <div class="plus-img">
+              <img src="images/image-6.png" alt="" />
+            </div>
+            <p>Сервисное обслуживание по Ростову-на-Дону и Ростовской области</p>
+          </div>
+        </div>
+      </section>
+      <section class="page-box">
+        <h2 class="title">Почему покупать у нас выгодно</h2>
+        <div class="plus-wrap">
+          <div class="item-description">
+            <span class="icon-tape">1</span>
+            <span class="tepe-desc">Лучшее соотношение цены и качества</span>
+          </div>
+          <div class="item-description">
+            <span class="icon-tape">2</span>
+            <span class="tepe-desc">Надежность и долговечность</span>
+          </div>
+          <div class="item-description">
+            <span class="icon-tape">3</span>
+            <span class="tepe-desc">Рекламно-информационная поддержка</span>
+          </div>
+          <div class="item-description">
+            <span class="icon-tape">4</span>
+            <span class="tepe-desc">Гибкая ценовая политика для дилеров</span>
+          </div>
+          <div class="item-description">
+            <span class="icon-tape">5</span>
+            <span class="tepe-desc">Обучение вашего торгового персонала</span>
+          </div>
+          <div class="item-description">
+            <span class="icon-tape">6</span>
+            <span class="tepe-desc">Сервисная поддержка</span>
+          </div>
+          <div class="button-box">
+          <span class="button open_modal" data-href="#modal" data-modal-title="Поучить консультацию" data-modal-email-title="Заказ на поучение консультации">Поучить консультацию</span>
+          </div>
+        </div>
+      </section>
+      <section class="page-box white-bg">
+        <h2 class="title">Опыт работы компании</h2>
+        <div class="text-wrapper">
+          <p>ООО «Содружество» является эксклюзивным представителем и структурным подразделением ЗАО «Ростовгазоаппарат».</p>
+          <p>ЗАО «Ростовгазоаппарат» - одна из ведущих отечественных компаний индустрии домашнего газового отопления. Ростовгазоаппрат стал первым предприятием в России, которое освоило промышленный выпуск газового отопительного оборудования для дома. На сегодняшний день компания уверенно сохраняет звание флагмана отрасли, имеет современное, высокоавтоматизированное производство, построенное на новом производительном оборудовании и роботизированных линиях мирового уровня.</p>
+          <p>Продукция Ростовского завода газовой аппаратуры стала для потребителя эталоном качества, надежности и долговечности.</p>
+          <p>Ростовгазоаппарат входит в десятку передовых предприятий России, является лауреатом конкурса «100 лучших товаров России», имеет обширный ряд дипломов и сертификатов, в том числе СМК: ИСО 9001:2001.</p>
+        </div>
+      </section>
+      <section class="page-box">
+        <h2 class="title">Гарантии</h2>
+        <div class="plus-wrap">
+          <div class="item-garant">
+            <div class="img-garant">
+              <img src="images/image-7.png" alt="" />
+            </div>
+            <p>3 года</p>
+          </div>
+          <div class="item-garant">
+            <div class="img-garant">
+              <img src="images/image-8.png" alt="" />
+            </div>
+            <p>Долговечность и экологичность</p>
+          </div>
+          <div class="item-garant">
+            <div class="img-garant">
+              <img src="images/image-9.png" alt="" />
+            </div>
+            <p>Качество</p>
+          </div>
+          <div class="item-garant">
+            <div class="img-garant">
+              <img src="images/image-10.png" alt="" />
+            </div>
+            <p>Профессиональные  монтажные работы</p>
+          </div>
+        </div>
+      </section>
+      <section class="page-box white-bg">
+        <h2 class="title">Сертификация</h2>
+        <div class="certificate gallery1">
+          <a href="data-image/sert1_original.jpg">
+            <img src="data-image/sert1_small.jpg" alt="" />
+          </a>
+          <a href="data-image/sert2_original.jpg">
+            <img src="data-image/sert2_small.jpg" alt="" />
+          </a>
+        </div>
+        <div class="button-box">
+          <span class="button open_modal" data-href="#modal" data-modal-title="Поучить консультацию" data-modal-email-title="Заказ на поучение консультации">Поучить консультацию</span>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="contac-info-row">
+        <div class="contact-info">
+          <span>ИП Яшлян</span>
+          <span>Эксклюзивный дистрибьютор</span>
+          <span>ЗАО "Ростовгазоаппарат"</span>
+        </div>
+        <div class="contact-info">
+          <span>ул. 19-я линия, 57,</span>
+          <span>Ростов-на-Дону, РФ</span>
+        </div>
+        <div class="contact-info">
+          <span>(863) 295-59-17</span>
+          <span>E-mail: rgakotel@gmail.com</span>
+        </div>
+        <div class="contact-info">
+          <span class="btn open_modal" data-modal-title="Заказать обратный звонок" data-modal-email-title="Заказ обратного звонка" data-href="#modal">связаться с нами</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.lightbox.min.js"></script>
+  <script src="js/jquery.productsTable.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

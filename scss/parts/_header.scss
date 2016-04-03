@@ -1,0 +1,71 @@
+header {
+  padding: 20px 0;
+  @include breakpoint((to: 992px)) {
+    .logo {
+      width: 200px;
+    }
+  }
+
+  @include breakpoint((to: 768px)) {
+
+    .logo {
+      float: none;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    .phone {
+      float: none;
+      text-align: center;
+      .button {
+        font-size: 19px;
+      }
+      .number {
+        font-size: 25px;
+      }
+    }
+  }
+}
+.logo {
+  width: 230px;
+  overflow: hidden;
+  float: left;
+  img {
+    max-width: 100%;
+  }
+}
+.phone {
+  float: right;
+  text-align: right;
+  .button {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .adr {
+    color: $grey;
+    display: block;
+    transition: .5s;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    &:hover {
+      opacity: .5;
+    }
+  }
+}
+.number {
+  color: $blue;
+  font-size: 34px;
+  display: block;
+  margin-bottom: 5px;
+}
+.button {
+  padding: 10px 20px;
+  color: #fff;
+  background: #646464;
+  @include inline-block(top);
+  cursor: pointer;
+  transition: .5s;
+  &:hover {
+    background: $blue;
+  }
+}

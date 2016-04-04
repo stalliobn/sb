@@ -264,4 +264,12 @@
   @include breakpoint((to: 992px)) {
     display: table;
   }
+  @include breakpoint((to: 400px)) {
+    td {
+      padding: 5px 2px;
+      .button {
+        padding: 5px 10px;
+      }
+    }
+  }
 }
